@@ -1,0 +1,66 @@
+if (s >= r ) // Если иди вправо
+                {
+                    for (int f = 0; f < h && f < y; f = f + 1)
+                    {
+                        Влево.PerformClick();
+                        //Thread.Sleep(2000);
+                        if (o < a)
+                        {
+                            Вниз.PerformClick();
+                        }
+                        if (o > a)
+                        {
+                            Вверх.PerformClick();
+                        }
+                        c = c - 1;
+                        l = l - 1;
+                    }
+                    for (int f = 0; f < l; f = f + 1)
+                    {
+                         Вправо.PerformClick();
+                    }
+                    for (int f = 0; f < c; f = f + 1)
+                    {
+                      if (o > a)
+                        {
+                           Вверх.PerformClick();
+                        }
+                      if (o < a)
+                        {
+                            Вниз.PerformClick();
+                        }
+                    }
+                }
+                if (s < r) // Если иди влево
+                {
+                    for (int f = 0; f < h && f < y; f = f + 1)
+                    {
+                        Влево.PerformClick();
+                        //Thread.Sleep(2000);
+                        if (o < a)
+                        {
+                            Вниз.PerformClick();
+                        }
+                        if (o > a)
+                        {
+                            Вверх.PerformClick();
+                        }
+                        c = c - 1;
+                        l = l - 1;
+                    }
+                    for (int f = 0; f < l; f = f + 1)
+                    {
+                        Влево.PerformClick();
+                    }
+                    for (int f = 0; f < c; f = f + 1)
+                    {
+                        if (o > a)
+                        {
+                            Вверх.PerformClick();
+                        }
+                        if (o < a)
+                        {
+                            Вниз.PerformClick();
+                        }
+                    }
+                }

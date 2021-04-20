@@ -1,0 +1,98 @@
+public void Перемещение_на_клетку(int i) // Перемещение_на_клетку
+        {
+            Point location = new Point();
+            if (r == 0)
+            {
+                if (mass[o, r + 1].проходимость == true && mass[o+1, r].проходимость == true)
+                {
+                    First.Dispose();
+                    mass[0, 0].Visible = true;
+                }
+            }
+            if (i == 1)
+            {
+                if (mass[o, r+1].проходимость == false)
+                {
+                    MessageBox.Show("Прохода нет");
+                    return;
+                }
+                r = r + 1;
+                location = mass[o, r].Location;
+                if (mass[o, r].Image == Враг)
+                {
+                    Бой бой = new Бой(хар.Атака, вар[o, r].Атака);
+                    if (бой.результат == 2)
+                    {
+                        return;
+                    }
+                }
+            }
+            if (i == 2)
+            {
+                if (mass[o, r-1].проходимость == false)
+                {
+                    MessageBox.Show("Прохода нет");
+                    return;
+                }
+                r = r - 1;
+                location = mass[o, r].Location;
+                if (mass[o, r].Image == Враг)
+                {
+                    Бой бой = new Бой(хар.Атака, вар[o, r].Атака);
+                    if (бой.результат == 2)
+                    {
+                        return;
+                    }
+                }
+            }
+            if (i == 3)
+            {
+                if (mass[o-1, r].проходимость == false)
+                {
+                    MessageBox.Show("Прохода нет");
+                    return;
+                }
+                o = o - 1;
+                location = mass[o, r].Location;
+                if (mass[o, r].Image == Враг)
+                {
+                    Бой бой = new Бой(хар.Атака, вар[o, r].Атака);
+                    if (бой.результат == 2)
+                    {
+                        return;
+                    }
+                }
+            }
+            if (i == 4)
+            {
+                if (mass[o+1, r].проходимость == false)
+                {
+                    MessageBox.Show("Прохода нет");
+                    return;
+                }
+                o = o + 1;
+                location = mass[o, r].Location;
+                if (mass[o, r].Image == Враг)
+                {
+                    Бой бой = new Бой(хар.Атака, вар[o, r].Атака);
+                    if (бой.результат == 2)
+                    {
+                        return;
+                    }
+                }
+            }
+            if ((panel3.Controls["pctdd"] as PictureBox) != null)
+            {
+                (panel3.Controls["pctdd"] as PictureBox).Dispose();
+            }
+            PictureBox avbl = new PictureBox();
+            avbl.Location = location;
+            avbl.Height = 100;
+            avbl.Width = 100;
+            avbl.Name = "pctdd";
+            avbl.BackColor = Color.Aqua;
+            avbl.MouseEnter += new EventHandler(Клик_на_героя);
+            avbl.Parent = panel3;
+            avbl.Image = Основа.knight;
+            avbl.BringToFront();
+        }

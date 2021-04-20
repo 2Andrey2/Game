@@ -1,0 +1,30 @@
+c:\documents and settings\игорь\мои документы\visual studio 2010\Projects\Игра\Игра\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\игорь\мои документы\visual studio 2010\Projects\Игра\Игра\obj\x86\Debug\Игра.Основа.resources
+c:\documents and settings\игорь\мои документы\visual studio 2010\Projects\Игра\Игра\obj\x86\Debug\Игра.Properties.Resources.resources
+c:\documents and settings\игорь\мои документы\visual studio 2010\Projects\Игра\Игра\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\игорь\мои документы\visual studio 2010\Projects\Игра\Игра\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\игорь\мои документы\visual studio 2010\Projects\Игра\Игра\bin\Debug\Игра.exe
+c:\documents and settings\игорь\мои документы\visual studio 2010\Projects\Игра\Игра\bin\Debug\Игра.pdb
+c:\documents and settings\игорь\мои документы\visual studio 2010\Projects\Игра\Игра\obj\x86\Debug\Игра.exe
+c:\documents and settings\игорь\мои документы\visual studio 2010\Projects\Игра\Игра\obj\x86\Debug\Игра.pdb
+C:\Documents and Settings\Игорь\Мои документы\Visual Studio 2010\Projects\Игра\Игра\obj\x86\Debug\Игра.Окно_боя.resources
+C:\Documents and Settings\Admin\Рабочий стол\Игра\Игра\obj\x86\Debug\Игра.exe
+C:\Documents and Settings\Admin\Рабочий стол\Игра\Игра\obj\x86\Debug\Игра.pdb
+C:\Documents and Settings\Admin\Рабочий стол\Игра\Игра\bin\Debug\Игра.exe
+C:\Documents and Settings\Admin\Рабочий стол\Игра\Игра\bin\Debug\Игра.pdb
+C:\Documents and Settings\Admin\Рабочий стол\Игра\Игра\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Рабочий стол\Игра\Игра\obj\x86\Debug\Игра.Окно_боя.resources
+C:\Documents and Settings\Admin\Рабочий стол\Игра\Игра\obj\x86\Debug\Игра.Основа.resources
+C:\Documents and Settings\Admin\Рабочий стол\Игра\Игра\obj\x86\Debug\Игра.Properties.Resources.resources
+C:\Documents and Settings\Admin\Рабочий стол\Игра\Игра\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Admin\Рабочий стол\Игра\Игра\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Флешка\Игра\Игра\obj\x86\Debug\Игра.exe
+E:\Флешка\Игра\Игра\obj\x86\Debug\Игра.pdb
+E:\Флешка\Игра\Игра\bin\Debug\Игра.exe
+E:\Флешка\Игра\Игра\bin\Debug\Игра.pdb
+E:\Флешка\Игра\Игра\obj\x86\Debug\Игра.Окно_боя.resources
+E:\Флешка\Игра\Игра\obj\x86\Debug\Игра.Основа.resources
+E:\Флешка\Игра\Игра\obj\x86\Debug\Игра.Properties.Resources.resources
+E:\Флешка\Игра\Игра\obj\x86\Debug\Игра.csprojAssemblyReference.cache
+E:\Флешка\Игра\Игра\obj\x86\Debug\Игра.csproj.GenerateResource.cache
+E:\Флешка\Игра\Игра\obj\x86\Debug\Игра.csproj.CoreCompileInputs.cache
